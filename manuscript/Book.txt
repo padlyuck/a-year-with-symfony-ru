@@ -1,4 +1,3 @@
-00_toc.md
 01_foreword_cordova.md
 02_foreword_hudson.md
 03_introduction.md
