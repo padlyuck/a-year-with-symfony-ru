@@ -3,3 +3,4 @@
 03_introduction.md
 04.0_journey_from_request_to_response.md
 04.1_httpkernelinterface.md
+04.2_events_leading_to_response.md
