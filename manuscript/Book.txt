@@ -5,3 +5,4 @@
 04.1_httpkernelinterface.md
 04.2_events_leading_to_response.md
 04.3_exception_handling.md
+04.4_subrequests.md
