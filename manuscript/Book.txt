@@ -6,3 +6,10 @@
 04.2_events_leading_to_response.md
 04.3_exception_handling.md
 04.4_subrequests.md
+05.0_patterns_of_dependency_injection.md
+06.0_project_structure.md
+07.0_configuration_conventions.md
+08.0_security.md
+09.0_using_annotations.md
+10.0_being_a_symfony_developer.md
+11_conclusion.md
