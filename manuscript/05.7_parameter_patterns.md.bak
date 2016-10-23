@@ -1,4 +1,4 @@
-## 7 Шаблоны создания параметров
+## 7 Приёмы создания параметров
 
 The service container has service definitions and parameters. Parameters are simple values that
 can consist of constant scalar values and arrays, in any combination. So 'matthias' would be
