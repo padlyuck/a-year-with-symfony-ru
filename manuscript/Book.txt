@@ -17,6 +17,7 @@
 
 06.0_project_structure.md
 06.8_organizing_application_layers.md
+06.9_state_and_context.md
 
 07.0_configuration_conventions.md
 
