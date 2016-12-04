@@ -22,6 +22,12 @@
 07.0_configuration_conventions.md
 
 08.0_security.md
+08.12_introduction.md
+08.13_authentication_and_sessions.md
+08.14_controller_design.md
+08.15_input_validation.md
+08.16_output_escaping.md
+08.17_being_secretive.md
 
 09.0_using_annotations.md
 
