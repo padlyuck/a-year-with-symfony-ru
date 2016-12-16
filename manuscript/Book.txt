@@ -20,6 +20,8 @@
 06.9_state_and_context.md
 
 07.0_configuration_conventions.md
+07.10_application_configuration_setup.md
+07.11_configuration_conventions.md
 
 08.0_security.md
 08.12_introduction.md
