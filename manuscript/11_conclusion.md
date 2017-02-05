@@ -1,4 +1,4 @@
-## Conclusion
+## Заключение
 
 Though not from request to response, this has been quite a journey! I wrote the first pages of this
 book in April of 2013. In June I said it would take just 6 more weeks to finish it. Well, it took three

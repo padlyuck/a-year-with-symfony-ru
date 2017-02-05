@@ -32,7 +32,18 @@
 08.17_being_secretive.md
 
 09.0_using_annotations.md
+09.18_introduction.md
+09.19_annotation_is_a_simple_value_object.md
+09.20_valid_usecases_for_annotations.md
+09.21_using_annotations_in_symfony_applications.md
+09.22_designing_for_reusability.md
+09.23_conclusion.md
 
 10.0_being_a_symfony_developer.md
+10.24_reusable_code_low_coupling.md
+10.25_reusable_code_mobile.md
+10.26_reusable_code_extension.md
+10.27_reusable_code_easy_to_use.md
+10.28_reusable_code_reliable.md
 
 11_conclusion.md
