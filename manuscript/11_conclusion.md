@@ -7,7 +7,7 @@ wanting to take an extra step. Now that you’ve finished the book, I hope that 
 And maybe you can use some of the practices described here in your work as a developer.
 
     Since this is the last page of the book, it’s time for some meta-comments!
-    
+
 I think that the PHP community has taken some huge steps in the last couple of years. There are
 some great tools and platforms now, like GitHub and Composer, Vagrant and Puppet. PHP developers
 are becoming aware of the commonality of their individual ideas (for instance as expressed by the
