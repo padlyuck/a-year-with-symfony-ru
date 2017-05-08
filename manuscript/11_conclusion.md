@@ -1,30 +1,59 @@
 # Заключение
 
-Though not from request to response, this has been quite a journey! I wrote the first pages of this
-book in April of 2013. In June I said it would take just 6 more weeks to finish it. Well, it took three
-months, but now it is exactly as I had imagined it to be: a book for developers familiar with Symfony,
-wanting to take an extra step. Now that you’ve finished the book, I hope that you found it interesting.
-And maybe you can use some of the practices described here in your work as a developer.
+Написание этой книги хоть и не было похоже на путеществие "от запроса до ответа", но было замечательным
+приключением! Я написал первые страницы этой книги в апреле 2013 года. В июне я сказал, что мне потребуется
+еще 6 недель, чтобы закончить ее. В итоге написание книги растянулось еще на 3 месяца, но теперь книга
+выглядит так, как я ее себе и представлял: книга для разработчиков, знакомых с Symfony, но желающих
+сделать шаг вперед. Теперь, когда вы дочитали книгу до конца, я надеюсь, она была вам интересна.
+И вы, возможно, захотите использовать некоторые из практик, которые я описал в книге.
 
-    Since this is the last page of the book, it’s time for some meta-comments!
+    Так как это последняя страница в книге, настало время для некоторых мета-комментариев! 
 
-I think that the PHP community has taken some huge steps in the last couple of years. There are
-some great tools and platforms now, like GitHub and Composer, Vagrant and Puppet. PHP developers
-are becoming aware of the commonality of their individual ideas (for instance as expressed by the
-PSR-* standards). They have also slowly started to take care of handling version numbers well (e.g.
-semantic versioning). And they are generally very much concerned about bugs in their open-sourced
-software (which other people use in production environments). Above all, many PHP developers
-contribute to open-source projects for free, which generates a good vibe and a great tradition of
-giving and sharing.
+Я считаю, что PHP-сообщество за последние несколько лет сделало несколько огромных шагов вперед.
+Появлось несколько замечательных инструментов и платформ, таких как GitHub и Composer, Vagrant и Puppet
+(@dbykadorov - и Docker!). PHP разработчики задумались о совместимости и стандартизации своих
+идей (что, например, привело к созданию PSR-* стандартов). Они также постепенно начали заботиться
+о правильном версионировании (например, с использованием семантического версионирования). А также
+они стали намного больше внимания обращать на ошибки в своих open-source проектах (которые используются
+другими разработчиками в реальных "боевых" условиях). Кроме этого, многие PHP-разработчики совершенно бесплатно
+участвуют в развитии open-source проектов, что создает хорошую атмосферу и отличную традицию open-source
+сообщества.
 
-But PHP developers are not used to all of the activities related to working with or even delivering
-open-source software: defining a manageable list of package dependencies, distributing packages,
-releasing software to the world, announcing changes to an API, handling bugs reported by strangers,
-working with continuous integration, etc.
+Но PHP-разработчики еще не привыкли ко всем этим действиям, связанным с работой с открытым исходным кодом 
+или его распространением: определение управляемого списка зависимостей пакетов, распространение пакетов, 
+выпуск релизов программного обеспечения, объявление изменений API, обработка ошибок, поступающих 
+от незнакомых пользователей, работа в режиме непрерывной интеграции и т.д.
 
-More importantly: developing software for reusability has proven to be quite a difficult task in
-itself. Luckily, there are many principles you can adhere to. Some of them are described in the last
-part of this book. And some of them are well known to people writing in other languages than PHP.
-See for instance the list of [package design principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) 
-as described by Robert Martin. Ideas like these are not known to everyone in the PHP community, while they should be. 
-If I were to ever write a book again, it would be about that: PHP package design.
+И, что более важно, разработка программного обеспечения, пригодного для повторного использования 
+оказалась весьма непростой задачей сама по себе. К счастью, тут такдже имеется много принципов, которых
+следует придерживаться. Некоторые из них описаны в последней части этой книги. Другие принципы широко
+известны разработчикам на других языках. Ознакомьтесь например со списком 
+[принципов дизайна пакетов](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod), написанным
+Робертом Мартином (Robert Martin). Подобные идеи не известны большинству разработчиков из PHP-сообщества, а 
+должны бы быть известны. Если я соберусь писать еще одну книгу - она будет именно об этом: дизайн пакетов в PHP 
+(@dbykadorov - и он таки ее написал [Principles of Package Design](https://leanpub.com/principles-of-package-design)!
+правда бесплатно пока ее не раздает, но $25 за хорошую книгу это не много).
+
+## Заключение от переводчика
+
+Как и написание для Маттиаса, так и процесс перевода для меня, был замечательным приключением. Вообще говоря, когда
+я начал читать книгу, я не собирался ее переводить. Однако, в процессе чтения я понимал, что многие принципы, которые
+описаны в книге, неизвестны PHP/Symfony разработчикам и по сей день. Я видел и работал с большим количеством Legacy
+проектов, в которых были собраны все упомянутые Маттиасом антипаттерны - и толстые контроллеры, и остсутвие хэндлеров
+форм, доменных менеджеров, GOD-объекты на тысячи и тысячи строк, нулевое покрытие тестами и т.д. и т.п. Более того,
+я отметил что и сам часто сваливаюсь к тупому кодированию.
+
+Поэтому в аргусте 2016 года я списался с Маттиасом и получил его разрешение на перевод книги (вы можете видеть его в
+соавторах). Переводил я книгу в свободное время, по несколько часов в неделю. Первую половину удалось перевести 
+достаточно быстро и я надеялся закончить перевод к окончанию новогодних праздников 2017. Но, внезапно, навалилось
+большое количество работы и ни к марту ни к апрелю 2017 перевод не был готов.
+
+Тем не менее, я рад тому, что спустя почти 9 месяцев, основная часть перевода все-таки закончена. Я настоятельно
+рекомендую к прочтению эту книгу всем начинающим Symfony-разработчикам. А также PHP-разработчикам старой закалки 
+с опытом - вы, вероятно, также сможете почерпнуть для себя полезную информацию, особенно из последних глав, которые
+слабо связаны именно с Symfony.
+
+
+Happy coding!
+
+Дмитрий Быкадоров.
